@@ -101,7 +101,8 @@ body {
 }
 
 .text {
-  font-size: 1.8rem;
+  color: #000;
+  font-size: 1.6rem;
   text-align: center;
   line-height: 1.2;
 }
@@ -117,4 +118,54 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+/*********************************/
+/* SECOND SECTION */
+/*********************************/
+
+.second-section {
+  background-color: #831adc;
+  background-image: url(../img/scribble-2-img.png);
+  background-repeat: no-repeat;
+  background-position: left bottom -30px;
+  padding: 6.4rem 0;
+}
+
+.main-heading {
+  font-family: "Staatliches", sans-serif;
+  text-transform: uppercase;
+  font-size: 7.4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  color: #000;
+  margin: 0;
+}
+
+.second-section-right-content {
+  max-width: 40rem;
+}
+
+.my-btn:link,
+.my-btn:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: 3px solid #fff;
+  padding: 1rem 5rem;
+  border-radius: 100px;
+  transition: all 0.4s;
+}
+
+.my-btn:hover,
+.my-btn:active {
+  background-color: #6207b1;
+  border: 3px solid #6207b1;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
