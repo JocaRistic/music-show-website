@@ -102,7 +102,7 @@ body {
 
 .text {
   color: #000;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
   line-height: 1.2;
 }
@@ -168,4 +168,106 @@ body {
   border: 3px solid #6207b1;
   transform: translateY(-3px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*********************************/
+/* CAROUSEL SECTION */
+/*********************************/
+
+.carousel-section {
+  padding: 12.8rem 0 9.6rem 0;
+  background-image: url(../img/paper-tear.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.my-carousel {
+  padding-top: 12.8rem;
+  max-width: 90rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel-col-left,
+.carousel-col-right {
+  max-width: 44rem;
+  padding: 3.2rem 0;
+}
+
+.carousel-col-left {
+  position: relative;
+}
+
+.carousel-bg-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.carousel-col-left .text-rotated {
+  margin-bottom: 10rem;
+  transform: translateX(50px) rotate(-5deg);
+}
+
+.carousel-col-right .text-rotated--purple-bg {
+  margin-left: 0;
+  transform: rotate(2deg);
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+
+.carousel-col-left .text,
+.carousel-col-right .text {
+  padding-right: 1rem;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.carousel-control-my {
+  position: relative;
+  opacity: 1;
+}
+
+.carousel-control-my--left {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.carousel-left-arrow {
+  width: 105px;
+  height: 49px;
+}
+
+.slide-number {
+  margin: 0;
+  font-size: 3rem;
+  color: #831adc;
+  font-weight: 600;
+}
+
+.carousel-left-dots,
+.carousel-right-dots {
+  position: absolute;
+  z-index: -1;
+}
+
+.carousel-left-dots {
+  left: 0;
+  bottom: -100px;
+}
+
+.carousel-right-dots {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
 }
