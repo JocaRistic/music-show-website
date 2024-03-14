@@ -271,3 +271,93 @@ body {
   transform: translateY(-50%);
   right: 0;
 }
+
+/*********************************/
+/* TICKETS SECTION */
+/*********************************/
+
+.tickets-first-row {
+  height: 251px;
+}
+
+.tickets-first-left {
+  background-image: url("../img/gallery/s4-img1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.tickets-first-right {
+  background-image: url("../img/gallery/s4-img2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.tickets-second-row {
+  position: relative;
+}
+
+.tickets-second-left {
+  background-image: url("../img/gallery/s4-img3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.tickets-second-right {
+  padding-bottom: 35rem;
+  position: relative;
+}
+
+.tickets-back-dots {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.tickets-second-right-content {
+  max-width: 90rem;
+  margin: 9.6rem auto;
+  padding: 0 3.2rem;
+}
+
+.main-heading--reserve {
+  position: relative;
+}
+
+.main-heading--reserve::after {
+  content: "";
+  background-image: url("../img/gallery/s4-back-underline.png");
+  position: absolute;
+  left: 20%;
+  bottom: -10px;
+  height: 42px;
+  width: 461px;
+  z-index: -1;
+}
+
+.tickets-second-right-content .main-heading span {
+  color: #831adc;
+}
+
+.my-btn--purple:link,
+.my-btn--purple:visited {
+  color: #6207b1;
+  border-color: #6207b1;
+}
+
+.my-btn--purple:hover {
+  color: #fff;
+}
+
+.tickets-right-imgs {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  width: auto;
+  padding: 0;
+}
+
+.img-cont img {
+  width: 100%;
+  height: 100%;
+}
