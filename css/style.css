@@ -503,3 +503,61 @@ body {
   right: 0;
   transform: translate(0, 75%);
 }
+
+/*********************************/
+/* SECOND CAROUSEL SECTION */
+/*********************************/
+
+.second-carousel-section {
+  padding: 25rem 0 20rem 0;
+  background-image: url("../img/second-carousel-section/second-carousel-left-back.png"),
+    url(../img/second-carousel-section/second-carousel-right-back.png);
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  position: relative;
+  overflow: hidden;
+}
+
+.second-carousel-back-dots {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+.sec-carousel-item-content {
+  max-width: 54rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.star-cont {
+  width: 9.6rem;
+  height: 9.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #9913e1;
+  border-radius: 50%;
+}
+
+.star-cont .star-icon {
+  fill: #fff;
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.sec-carousel-item-content .main-heading span {
+  color: #831adc;
+}
+
+.sec-carousel-underline {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.second-carousel-section .carousel-control-my {
+  position: absolute;
+}
