@@ -425,3 +425,37 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/*********************************/
+/* PARTY LIKE SECTION */
+/*********************************/
+
+.party-like-section {
+  padding: 15rem 0;
+  background-image: url("../img/top-right-dots.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+}
+
+.party-like-left .main-heading span {
+  color: #831adc;
+}
+
+.party-left-scribble,
+.party-right-scribble {
+  position: absolute;
+  z-index: -1;
+}
+
+.party-left-scribble {
+  width: 250px;
+  height: 265px;
+  left: 0;
+  top: 20%;
+}
+
+.party-right-scribble {
+  right: 0;
+  bottom: 7%;
+}
