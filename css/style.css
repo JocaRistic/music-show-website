@@ -366,9 +366,6 @@ body {
 /* MINI CAROUSEL SECTION */
 /*********************************/
 
-.mini-carousel-section {
-}
-
 .mini-carousel-left {
   background-image: url("../img/mini-carousel-section-imgs/mini-carousel-back.png");
   background-repeat: no-repeat;
@@ -416,4 +413,15 @@ body {
 .mini-carousel-right-arrow {
   width: 87px;
   height: 40px;
+}
+
+/*********************************/
+/* BANNER SECTION */
+/*********************************/
+
+.banner-img-cont {
+  padding: 147px 0;
+  background-image: url("../img/banner-section-img.png");
+  background-size: cover;
+  background-position: center;
 }
