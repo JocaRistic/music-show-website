@@ -561,3 +561,66 @@ body {
 .second-carousel-section .carousel-control-my {
   position: absolute;
 }
+
+/*********************************/
+/* NEWSLETTER SECTION */
+/*********************************/
+
+.newsletter-left-col {
+  background-color: #9913e1;
+  background-image: url("../img/newsletter-left-bot-back.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.newsletter-left-content {
+  max-width: 35rem;
+  margin: 12.8rem auto;
+}
+
+.newsletter-form input,
+.newsletter-form textarea {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.newsletter-right-col {
+  background-image: url("../img/newsletter-right-back-img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.newsletter-btn {
+  display: block;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  transition: all 0.4s;
+}
+
+.newsletter-btn:hover {
+  background-color: #6207b1;
+  border: 3px solid #6207b1;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
